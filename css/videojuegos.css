@@ -1,0 +1,155 @@
+/* =========================================================
+   GAMEZONE - ESTILOS PRINCIPALES
+   ========================================================= */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f8f9fa;
+    color: #212529;
+}
+
+/* NAVBAR */
+
+.navbar {
+    background: rgba(15, 15, 20, 0.96) !important;
+}
+
+.navbar-brand {
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    margin-left: 15px;
+}
+
+/* HERO */
+
+.hero {
+    min-height: 100vh;
+    color: white;
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(10, 10, 15, 0.95),
+            rgba(10, 10, 15, 0.65),
+            rgba(10, 10, 15, 0.35)
+        ),
+        radial-gradient(
+            circle at 80% 30%,
+            #6f42c1 0,
+            #18181f 45%,
+            #08080c 100%
+        );
+}
+
+.hero h1 {
+    line-height: 1.1;
+}
+
+.titulo-destacado {
+    color: #ffc107;
+}
+
+.hero p {
+    max-width: 650px;
+}
+
+/* SECCIONES */
+
+section {
+    scroll-margin-top: 70px;
+}
+
+.section-tag {
+    color: #d39e00;
+    font-size: 0.85rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* TARJETAS DE JUEGOS */
+
+.game-card {
+    padding: 35px;
+    background: white;
+    border-radius: 15px;
+    border: 1px solid #e9ecef;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.game-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+.game-icon {
+    width: 65px;
+    height: 65px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 20px;
+
+    border-radius: 15px;
+    background: #212529;
+    color: #ffc107;
+
+    font-size: 1.8rem;
+}
+
+/* FORMULARIO */
+
+.registro {
+    background: #eceff1;
+}
+
+.form-card {
+    padding: 40px;
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+}
+
+.form-icon {
+    color: #ffc107;
+    font-size: 3rem;
+}
+
+.form-control {
+    padding: 12px;
+}
+
+.form-control:focus {
+    border-color: #ffc107;
+    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.2);
+}
+
+/* FOOTER */
+
+footer {
+    min-height: 120px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    .hero {
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .form-card {
+        padding: 25px;
+    }
+}
