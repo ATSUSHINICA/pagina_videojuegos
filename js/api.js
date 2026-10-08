@@ -12,7 +12,7 @@
  * "https://4pi9nayy87.execute-api.us-east-1.amazonaws.com/dev/contact";
  */
 
-const API_URL = "";
+const API_URL = "https://xwn22jkui6.execute-api.us-east-1.amazonaws.com/dev";
 
 
 /* ---------------------------------------------------------
